@@ -1,0 +1,48 @@
+[
+    {
+        "model": "blog.user",
+        "pk": 1,
+        "fields": {
+            "email": "niceuser@gmail.com",
+            "password": "niceuser239",
+            "name": "nice_user209"
+        }
+    },
+    {
+        "model": "blog.user",
+        "pk": 2,
+        "fields": {
+            "email": "adminer_viktor@seznam.cz",
+            "password": "uhmadmin093",
+            "name": "viktor_adminer"
+        }
+    },
+    {
+        "model": "blog.user",
+        "pk": 3,
+        "fields": {
+            "email": "honzaserbin@gmail.com",
+            "password": "gh393_3onzo",
+            "name": "honzas"
+        }
+    },
+    {
+        "model": "blog.user",
+        "pk": 4,
+        "fields": {
+            "email": "alexand_sayapin@gmail.com",
+            "password": "sayapin_alex9430",
+            "name": "asayap_rus"
+        }
+    },
+    {
+        "model": "blog.user",
+        "pk": 5,
+        "fields": {
+            "email": "novikova_p@mail.ru",
+            "password": "polina_generalova22020903",
+            "name": "polina_novikova"
+        }
+    }
+
+]

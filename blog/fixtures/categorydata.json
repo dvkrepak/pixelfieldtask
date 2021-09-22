@@ -1,0 +1,27 @@
+[
+    {
+        "model": "blog.category",
+        "pk": 1,
+        "fields": {
+            "name": "autosport",
+            "slug": "autosport"
+        }
+    },
+    {
+        "model": "blog.category",
+        "pk": 2,
+        "fields": {
+            "name": "football",
+            "slug": "football"
+        }
+    },
+    {
+        "model": "blog.category",
+        "pk": 3,
+        "fields": {
+            "name": "basketball",
+            "slug": "basketball"
+        }
+    }
+    
+]
