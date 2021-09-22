@@ -3,8 +3,12 @@
         "model": "blog.post",
         "pk": 1,
         "fields": {
-            "title": "Gran prix in russia",
+            "title": "gran prix russia",
             "slug": "gran-pri-sochi",
+            "content": "Formula 1 racing in Russia. Next Sunday.",
+            "image": "http://127.0.0.1:8000/media/photos/139266.jpg",
+            "publish_date": "2021-09-22T13:50:31.671556Z",
+            "for_logged_users_only": false,
             "tags": [1, 3],
             "category": 1,
             "author": 2
@@ -16,6 +20,10 @@
         "fields": {
             "title": "Footbal Match Russia vs. England",
             "slug": "footbal-match-russia-vs-england",
+            "content": "Match ended with score 1-1.",
+            "image": "http://127.0.0.1:8000/media/photos/NINTCHDBPICT000418353445.jpg.webp",
+            "publish_date": "2021-09-22T14:13:12.087031Z",
+            "for_logged_users_only": true,
             "tags": [3, 5],
             "category": 2,
             "author": 3
@@ -25,33 +33,45 @@
         "model": "blog.post",
         "pk": 3,
         "fields": {
-            "title": "Basketball France vs. USA",
-            "slug": "basketball-france-vs-usa",
             "tags": [3, 5],
             "category": 3,
-            "author": 3
+            "author": 3,
+            "title": "Basketball France vs. USA",
+            "slug": "basketball-france-vs-usa",
+            "content": "France won with score 89-79.",
+            "image": "http://127.0.0.1:8000/media/photos/1dc3e567-d3ca-4852-8158-6a4e8e4ee59e..jpg",
+            "publish_date": "2021-09-22T14:21:18.906617Z",
+            "for_logged_users_only": false
         }
     },
     {
         "model": "blog.post",
         "pk": 4,
         "fields": {
-            "title": "Mazepin in F2",
-            "slug": "mazepin-in-f2",
             "tags": [2],
             "category": 1,
-            "author": 5
+            "author": 5,
+            "title": "Mazepin in F2",
+            "slug": "mazepin-in-f2",
+            "content": "Nikita Dmitryevich Mazepin (Russian: Ники́та Дми́триевич Мазе́пин, IPA: [nʲɪˈkʲitə ˈdmʲɪtrʲɪjɪvʲɪtɕ mɐˈzʲepʲɪn]; born 2 March 1999) is a Russian racing driver who is currently racing for Haas F1 Team in the 2021 Formula One World Championship under a neutral flag representing the Russian Automobile Federation [ru].[3] He previously competed in the FIA Formula 2 Championship for Hitech Racing.[4][5]",
+            "image": "http://127.0.0.1:8000/media/photos/GettyImages-1288069002.jpg",
+            "publish_date": "2021-09-22T14:24:22.483872Z",
+            "for_logged_users_only": false
         }
     },
     {
         "model": "blog.post",
         "pk": 5,
         "fields": {
-            "title": "Hammilton vs. Verstappen huge crash",
-            "slug": "hammilton-vs-vertappen-huge-crash",
             "tags": [1, 5],
             "category": 1,
-            "author": 2
+            "author": 2,
+            "title": "Hammilton vs. Verstappen huge crash",
+            "slug": "hammilton-vs-verstappen-huge-crash",
+            "content": "There was more drama on Sunday in the 2021 Formula 1 world championship battle, as Max Verstappen and Lewis Hamilton took each other out in lap 26 of the Italian Grand Prix.",
+            "image": "http://127.0.0.1:8000/media/photos/16314543344165.jpg.webp",
+            "publish_date": "2021-09-22T14:25:59.955916Z",
+            "for_logged_users_only": true
         }
     }
 

@@ -59,10 +59,10 @@ python manage.py runserver
 ```
 9. Fill the DB(optional):
 ```
-python manage.py loaddata blog/fixtures/postdata.json
 python manage.py loaddata blog/fixtures/categorydata.json
 python manage.py loaddata blog/fixtures/tagdata.json
 python manage.py loaddata blog/fixtures/userdata.json
+python manage.py loaddata blog/fixtures/postdata.json
 ```
 
 Project will be available at **http://127.0.0.1:8000/**
