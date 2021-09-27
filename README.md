@@ -12,6 +12,27 @@ Made by **Denis Krepak**
 
 Wrote on **Python** using **Django**, **Django Rest Framework**. **PostgreSQL** is used as a **DBMS**
 
+## **Deployment on a local machine via Docker**
+1. Clone the repository and go to the folder with app:
+```
+git clone https://github.com/dvkrepak/pixelfieldtask.git && cd pixelfieldtask/
+```
+2. Up containers after building:
+```
+docker-compose up -d --build
+```
+3. Make migrations:
+```
+docker-compose exec web python manage.py makemigrations --noinput \
+    && docker-compose exec web python manage.py migrate --noinput
+```
+4. Fill the DB(optional):
+```
+docker-compose exec web python manage.py loaddata blog/fixtures/categorydata.json
+docker-compose exec web python manage.py loaddata blog/fixtures/tagdata.json
+docker-compose exec web python manage.py loaddata blog/fixtures/userdata.json
+docker-compose exec web python manage.py loaddata blog/fixtures/postdata.json
+```
 ## **Deployment on a local machine**
 1. Connect to PostgreSQL:
 ```
@@ -65,7 +86,11 @@ python manage.py loaddata blog/fixtures/userdata.json
 python manage.py loaddata blog/fixtures/postdata.json
 ```
 
+
+
 Project will be available at **http://127.0.0.1:8000/**
+
+
 
 ## **Views:**
 #### **localhost/login/** - classic DRF authorization
